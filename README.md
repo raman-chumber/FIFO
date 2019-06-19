@@ -27,3 +27,12 @@ You must synthesize your final design using 90nm technology library provided by 
 
 <img width="909" alt="Screenshot 2019-06-19 16 14 46" src="https://user-images.githubusercontent.com/35642629/59807728-00fc2480-92ae-11e9-8fbc-76aab0cdd89b.png">
 
+# write fsm moore model
+
+<img width="987" alt="Screenshot 2019-06-19 16 33 06" src="https://user-images.githubusercontent.com/35642629/59808192-0fe3d680-92b0-11e9-9d27-aa542aab0ec9.png">
+
+# read fsm moore model
+
+<img width="939" alt="Screenshot 2019-06-19 16 35 26" src="https://user-images.githubusercontent.com/35642629/59808270-7832b800-92b0-11e9-90da-921fc8ae6115.png">
+
+
