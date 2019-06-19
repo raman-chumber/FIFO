@@ -41,4 +41,8 @@ IDLE : initial state
 
 <img width="939" alt="Screenshot 2019-06-19 16 35 26" src="https://user-images.githubusercontent.com/35642629/59808270-7832b800-92b0-11e9-90da-921fc8ae6115.png">
 
+# Block Diagram for Test Bench
+
+<img width="805" alt="Screenshot 2019-06-19 16 40 21" src="https://user-images.githubusercontent.com/35642629/59808438-16268280-92b1-11e9-844e-12219806987b.png">
+
 
