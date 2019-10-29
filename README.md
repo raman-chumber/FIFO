@@ -3,15 +3,15 @@ Designed, validated and synthesized a parameterized first-in first-out buffer in
 
 # Objective of the Project
 The objective of this project is to design, validate and synthesize a parameterized first-in first-out (FIFO) buffer in Verilog. The default depth of the FIFO is 128 32-bit words. It supports flush, insert, and remove operations. During the insert operation, a new word is added to the tail (end) of the buffer and an internal write pointer is incremented on positive edge of clk_in clock. The data at the head of the FIFO is read during the remove operation, and an internal read pointer is incremented on positive edge clk_out clock. A flush clears all words in the buffer. The buffer is considered empty after a flush. Here are the ports for the FIFO:
-• 1-bit input reset: An asynchronous global system reset. Every sequential element in the system goes through a reset when this signal is asserted. The content of the FIFO is cleared. The status of the FIFO will be empty after a reset.
-• 1-bit input flush: When asserted, the FIFO is cleared, and the read/write pointers are reset on positive edge of clock clk_in. The FIFO status is empty.
-• 1-bit input insert: When asserted, data on data_in port is stored at the tail of the FIFO on positive edge of clock clk_in
-• 1-bit input remove: When asserted, data at the head of the FIFO is removed from the FIFO and is placed on the on the data_out output port on positive edge of clk_out
-• 32-bit input data_in: input data port
-• 32-bit output data_out: output data port
-• 1-bit output full: asserted on the positive edge of clk_in clock when the buffer is full and there is
+* 1-bit input reset: An asynchronous global system reset. Every sequential element in the system goes through a reset when this signal is asserted. The content of the FIFO is cleared. The status of the FIFO will be empty after a reset. 
+* 1-bit input flush: When asserted, the FIFO is cleared, and the read/write pointers are reset on positive edge of clock clk_in. The FIFO status is empty.
+* 1-bit input insert: When asserted, data on data_in port is stored at the tail of the FIFO on positive edge of clock clk_in
+* 1-bit input remove: When asserted, data at the head of the FIFO is removed from the FIFO and is placed on the on the data_out output port on positive edge of clk_out
+* 32-bit input data_in: input data port
+* 32-bit output data_out: output data port
+* 1-bit output full: asserted on the positive edge of clk_in clock when the buffer is full and there is
 no more room for data
-• 1-bit output empty: asserted on the positive edge of clk_out clock when the buffer is empty (no
+* 1-bit output empty: asserted on the positive edge of clk_out clock when the buffer is empty (no
 data in the buffer)
 
 # Project Phases
